@@ -1,7 +1,7 @@
 # Identifying Coordinated Accounts on Social Media through Hidden Influence and Group Behaviours
 
 ## AMDN-HAGE (Pytorch implementation)
-Coordinated Influence Campaigns, Disinformation, Social Media,Fake News, Temporal Point Process
+Coordinated Activity Detection, Disinformation/Influence Campaigns, Social Media,Fake News, Temporal Point Process
 
 ## Usage
 AMDN-HAGE code is built for Coordinated Activity Detection and is based on Neural Temporal Points Processes (NTPP) and Gaussian Mixture Models (some code functionality of NTPP is built on top of existing repository-https://github.com/shchur/ifl-tpp). 
@@ -13,7 +13,8 @@ python setup.py install
 ```
 
 ## Requirements
-```numpy=1.16.4
+```
+numpy=1.16.4
 pytorch=1.4.0
 scikit-learn=0.24.0
 scipy=1.6.0
@@ -38,6 +39,6 @@ title = {Identifying Coordinated Accounts on Social Media through Hidden Influen
 year = {2021},
 publisher = {Association for Computing Machinery},
 booktitle = {Proceedings of the 27th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining},
-series = {KDD '21}
+series = {KDD'21}
 }
 ```
